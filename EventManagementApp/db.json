@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "firstName": "Durga",
+      "lastName": "sindhu",
+      "email": "durga@gmail.com",
+      "mobile": "9573566068",
+      "salary": "$ 30000"
+    },
+    {
+      "id": 2,
+      "firstName": "ankith",
+      "lastName": "eda",
+      "email": "ankith@gmail.com",
+      "mobile": "9876686632",
+      "salary": "$ 78000"
+    },
+    {
+      "id": 3,
+      "firstName": "Nidhi",
+      "lastName": "Guptha",
+      "email": "nidhi@gmail.com",
+      "mobile": "9478973727",
+      "salary": "$ 25000"
+    },
+    {
+      "id": 4,
+      "firstName": "swetha",
+      "lastName": "sri",
+      "email": "swetha@gmail.com",
+      "mobile": "9556673795",
+      "salary": "$ 85000"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
