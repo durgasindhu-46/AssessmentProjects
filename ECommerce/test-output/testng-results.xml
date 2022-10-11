@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-11T16:26:52 IST" name="Default suite" finished-at="2022-10-11T16:31:52 IST" duration-ms="299546">
+    <groups>
+      <group name="Chrome">
+        <method signature="Ecommerce.LaunchChrome()[pri:0, instance:com.test.Ecommerce@3a93b025]" name="LaunchChrome" class="com.test.Ecommerce"/>
+        <method signature="Ecommerce.chromeTest()[pri:0, instance:com.test.Ecommerce@3a93b025]" name="chromeTest" class="com.test.Ecommerce"/>
+      </group> <!-- Chrome -->
+      <group name="Firefox">
+        <method signature="Ecommerce.LaunchFirefox()[pri:0, instance:com.test.Ecommerce@3a93b025]" name="LaunchFirefox" class="com.test.Ecommerce"/>
+        <method signature="Ecommerce.firefoxTest()[pri:0, instance:com.test.Ecommerce@3a93b025]" name="firefoxTest" class="com.test.Ecommerce"/>
+      </group> <!-- Firefox -->
+    </groups>
+    <test started-at="2022-10-11T16:26:52 IST" name="Default test" finished-at="2022-10-11T16:31:52 IST" duration-ms="299546">
+      <class name="com.test.Ecommerce">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.test.Ecommerce@3a93b025]" started-at="2022-10-11T16:26:52 IST" name="beforeTest" finished-at="2022-10-11T16:26:52 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="LaunchChrome()[pri:0, instance:com.test.Ecommerce@3a93b025]" started-at="2022-10-11T16:26:54 IST" name="LaunchChrome" finished-at="2022-10-11T16:26:56 IST" duration-ms="2183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchChrome -->
+        <test-method signature="LaunchFirefox()[pri:0, instance:com.test.Ecommerce@3a93b025]" started-at="2022-10-11T16:26:56 IST" name="LaunchFirefox" finished-at="2022-10-11T16:27:02 IST" duration-ms="6003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchFirefox -->
+        <test-method signature="chromeTest()[pri:0, instance:com.test.Ecommerce@3a93b025]" started-at="2022-10-11T16:27:02 IST" name="chromeTest" finished-at="2022-10-11T16:30:11 IST" depends-on-methods="com.test.Ecommerce.LaunchChrome" duration-ms="188565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromeTest -->
+        <test-method signature="firefoxTest()[pri:0, instance:com.test.Ecommerce@3a93b025]" started-at="2022-10-11T16:30:11 IST" name="firefoxTest" finished-at="2022-10-11T16:31:52 IST" depends-on-methods="com.test.Ecommerce.LaunchFirefox" duration-ms="100756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firefoxTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.test.Ecommerce@3a93b025]" started-at="2022-10-11T16:31:52 IST" name="afterTest" finished-at="2022-10-11T16:31:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.test.Ecommerce -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
